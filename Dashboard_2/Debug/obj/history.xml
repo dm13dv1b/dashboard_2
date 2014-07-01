@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O2 -c -DSTM32F407VG -DSTM32F4XX -D__FPU_USED -DUSE_STDPERIPH_DRIVER -I..\..\..\workspace\Dashboard_2\src -I..\..\..\workspace\Dashboard_2 -I..\..\..\workspace\Dashboard_2\inc -I..\..\..\workspace\Dashboard_2\cmsis_boot -I..\..\..\workspace\Dashboard_2\cmsis -I..\..\..\workspace\Dashboard_2\inc\Core -I..\..\..\workspace">
+      <target file="stm32f4xx_it.o" lastModified="146f0d58e90">
+         <source file="..\..\..\src\stm32f4xx_it.c" lastModified="146dd1511a0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="146f0d58e90">
+         <source file="..\..\..\src\stm32f4xx_rcc.c" lastModified="146d8331970"/>
+      </target>
+      <target file="misc.o" lastModified="146f0d59e30">
+         <source file="..\..\..\src\misc.c" lastModified="146dd17b180"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="146f0d59660">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146d7cc29e0"/>
+      </target>
+      <target file="stm32f4xx_periph.o" lastModified="146f0d59660">
+         <source file="..\..\..\src\stm32f4xx_periph.c" lastModified="146dd15b5b0"/>
+      </target>
+      <target file="main.o" lastModified="146f0d58e90">
+         <source file="..\..\..\src\main.c" lastModified="146dcd02900"/>
+      </target>
+      <target file="Nmea.o" lastModified="146f0d59660">
+         <source file="..\..\..\src\Nmea.c" lastModified="146d2b11880"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="146f0d586c0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="146dd199db0"/>
+      </target>
+   </processor>
+</history>

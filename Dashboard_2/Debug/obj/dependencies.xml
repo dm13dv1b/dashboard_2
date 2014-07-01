@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\Dashboard_2\src /I..\..\..\workspace\Dashboard_2 /I..\..\..\workspace\Dashboard_2\inc /I..\..\..\workspace\Dashboard_2\cmsis_boot /I..\..\..\workspace\Dashboard_2\cmsis /I..\..\..\workspace\Dashboard_2\inc\Core /I..\..\..\workspace">
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="146d7caddd8">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="146d7caddd8">
+      </source>
+      <source file="..\..\..\inc\nmea.h" lastModified="146dd138330">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="146d7cad9f0">
+      </source>
+      <source file="..\..\..\src\stm32f4xx_it.c" lastModified="146dd151970">
+         <include file="..\..\..\inc\stm32f4xx.h"/>
+         <include file="..\..\..\inc\stm32f4xx_it.h"/>
+         <include file="..\..\..\inc\nmea.h"/>
+         <include file="..\..\..\inc\main.h"/>
+         <include file="..\..\..\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146d7cc29e0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\inc\system_stm32f4xx.h" lastModified="13349a78ff0">
+      </source>
+      <source file="..\..\..\inc\main.h" lastModified="146d2224dd0">
+         <include file="..\..\..\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="146d7cdbc38">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="146d7cb33c8">
+         <include file="..\..\..\inc\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\src\main.c" lastModified="146dcd030d0">
+         <include file="..\..\..\inc\main.h"/>
+         <include file="..\..\..\inc\stm32f4xx_periph.h"/>
+         <include file="..\..\..\inc\stm32f4xx_it.h"/>
+         <include file="..\..\..\inc\nmea.h"/>
+         <include file="..\..\..\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\inc\stm32f4xx_it.h" lastModified="146dd11d580">
+         <include file="..\..\..\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\inc\stm32f4xx_rcc.h" lastModified="146b84c3ab0">
+      </source>
+      <source file="..\..\..\inc\stm32f4xx.h" lastModified="146ae726ca8">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\inc\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="146d7caddd8">
+      </source>
+      <source file="..\..\..\src\stm32f4xx_periph.c" lastModified="146dd15b5b0">
+         <include file="..\..\..\inc\stm32f4xx.h"/>
+         <include file="..\..\..\inc\stm32f4xx_periph.h"/>
+      </source>
+      <source file="..\..\..\inc\stm32f4xx_periph.h" lastModified="146dd15b5b0">
+         <include file="..\..\..\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\src\Nmea.c" lastModified="146d2b12050">
+         <include file="..\..\..\inc\stm32f4xx.h"/>
+         <include file="..\..\..\inc\nmea.h"/>
+      </source>
+      <source file="..\..\..\inc\misc.h" lastModified="146d82d2600">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="146dd199db0">
+      </source>
+      <source file="..\..\..\src\stm32f4xx_rcc.c" lastModified="146d8331970">
+         <include file="..\..\..\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="146d7caddd8">
+      </source>
+      <source file="..\..\..\src\misc.c" lastModified="146dd17b568">
+         <include file="..\..\..\inc\stm32f4xx.h"/>
+         <include file="..\..\..\inc\nmea.h"/>
+         <include file="..\..\..\inc\misc.h"/>
+      </source>
+   </includePath>
+</dependencies>

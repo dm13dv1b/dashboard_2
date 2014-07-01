@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.4 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=Dashboard_2.map -O2 --gc-sections -LD:\CooCox\CoIDE\configuration\ProgramData\Dashboard_2 -TD:\CooCox\CoIDE\configuration\ProgramData\Dashboard_2/arm-gcc-link.ld -g">
+      <target file="Dashboard_2.elf" lastModified="146f0d59e30">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="146f0d586c0"/>
+         <source file="..\obj\main.o" lastModified="146f0d58e90"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="146f0d58e90"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="146f0d58e90"/>
+         <source file="..\obj\Nmea.o" lastModified="146f0d59660"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="146f0d59660"/>
+         <source file="..\obj\stm32f4xx_periph.o" lastModified="146f0d59660"/>
+         <source file="..\obj\misc.o" lastModified="146f0d59e30"/>
+      </target>
+   </processor>
+</history>
